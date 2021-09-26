@@ -1,15 +1,9 @@
-.headerFooter {
-    display: block;
+.home-bg {
     background-image: url("../../../../assets/image/soben1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    width: 100vw;
 }
