@@ -1,0 +1,8 @@
+.contact-bg {
+    background-image: url("../../../../assets/image/soben4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
