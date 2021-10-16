@@ -2,3 +2,12 @@
     color: gray;
     box-shadow: 2px 2px 5px rgb(202, 202, 202);
 }
+
+.service-bg {
+    background-image: url("../../../../assets/image/soben3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}

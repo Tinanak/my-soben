@@ -8,6 +8,8 @@ import { FooterComponent } from './modules/general/footer/footer.component';
 import { HomeComponent } from './modules/general/home/home.component';
 import { HeaderComponent } from './modules/general/header/header.component';
 import { ServiceComponent } from './modules/general/service/service.component';
+import { ContactComponent } from './modules/general/contact/contact.component';
+import { RealisationComponent } from './modules/general/realisation/realisation.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +18,15 @@ import { ServiceComponent } from './modules/general/service/service.component';
     AboutComponent,
     FooterComponent,
     HomeComponent,
-    ServiceComponent
+    ServiceComponent,
+    ContactComponent,
+    RealisationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, HomeComponent]
 })
 export class AppModule { }

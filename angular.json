@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-soben"
+    }
+  },
+  "defaultProject": "my-soben",
+  "cli": {
+    "analytics": "36e947a9-17be-463e-aebd-dfc9a40dcc26"
+  }
 }

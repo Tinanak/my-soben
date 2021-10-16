@@ -1,7 +1,5 @@
 .text-about {
-    width: 45%;
     background: rgba(0, 0, 0, 0.2);
-    float: right;
 }
 
 .about-bg {
@@ -10,5 +8,5 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 75vh;
 }
