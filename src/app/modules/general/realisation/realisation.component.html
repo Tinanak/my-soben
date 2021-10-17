@@ -1,1 +1,32 @@
-<p>realisation works!</p>
+<div class="container-fluid service-bg">
+    <div class="align-end p-5 text-about">
+        <h2 class="text-secondary text-center display-5">Our Realisations</h2>
+        <div class="row pt-5 mx-lg-5 mx-sm-3">
+            <div *ngFor="let todo of todoList" class="col-lg-2 col-md-3 col-sm-6 my-2">
+                <div class="card-shadow card h-100 my-1">
+                    <img class="card-img-top" src="{{todo.images}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h6 class="card-title text-center text-secondary">{{todo.id}} . {{todo.title}}</h6>
+                        <span class="text-secondary">{{todo.description}}</span><br/>
+                        <span class="text-secondary">Categories : {{todo.categories}}</span><br/>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item d-grid gap-2 col-6 mx-auto">
+                            <button type="button" class="btn btn-sm btn-info text-white" (click)="editTodo(todo)">Edit</button>
+                            <button type="button" class="btn btn-sm btn-danger text-white" (click)="deleteTodo(todo.id)">Delete</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                <div class="card-shadow card h-100 my-1">
+                    <img class="card-img-top" src="../../../../assets/image/logo.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <br/><br/><br/><br/>
+                        <button type="button" class="btn btn-lg btn-success" (click)="createTodo()">Add More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

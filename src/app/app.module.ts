@@ -10,6 +10,7 @@ import { HeaderComponent } from './modules/general/header/header.component';
 import { ServiceComponent } from './modules/general/service/service.component';
 import { ContactComponent } from './modules/general/contact/contact.component';
 import { RealisationComponent } from './modules/general/realisation/realisation.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RealisationComponent } from './modules/general/realisation/realisation.
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent, HomeComponent]
